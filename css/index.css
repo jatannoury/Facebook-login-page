@@ -27,7 +27,7 @@
     background-color: white;
     border-radius: 10px;
     width: 21%;
-    margin-bottom: 5%;
+    min-width: 341px;
 }
 .box-1{
     margin-top:3%;
@@ -91,5 +91,39 @@ hr{
 }
 .container-1{
     width:30%;
-    
+}
+.sub-box-3{
+    padding-left: 54.5%;
+    background-color:#F0F2F5 ;
+    padding-top: 1.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10%;
+}
+.sub-box-3 p, .sub-box-3 h4 {
+    display: inline;
+}
+.a{
+    padding-top: 0;
+    padding-right: 15%;
+}
+.row-2{
+    justify-content: center;
+    display: flex;
+    width:80%;
+    padding-left: 10%;
+    font-size: 70%;
+}
+.sub-row{
+    text-align: start;
+    width:4.9%;
+    margin-top: 2%;
+}
+.Hr{
+    width:60%;
+    margin-right: 12%;
+}
+button{
+    height:100%;
+    margin-top: 1.8%;
+    font-size: 180%;
 }
