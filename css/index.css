@@ -101,6 +101,10 @@ hr{
 .container-1{
     width:30%;
 }
+.container-2{
+    width:80%;
+    margin-left: 5%;
+}
 .sub-box-3{
     padding-left: 54.5%;
     background-color:#F0F2F5 ;
