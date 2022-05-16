@@ -41,6 +41,20 @@
     padding-left: 4%;
     text-align: start;
 }
-.box-4{
+.box-2{
+    border-top: 1px solid;
+    background-color: #166FE5;
+    width:85%;
+    margin-left: 9%;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight:600;
+    margin-top:3%;
+    border-radius:10px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.box-3{
     padding-bottom: 25%;
 }
