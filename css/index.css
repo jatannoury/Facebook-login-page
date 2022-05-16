@@ -55,6 +55,22 @@
     padding-top: 3%;
     padding-bottom: 3%;
 }
+.reset-pass{
+    color:#188CF5;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.reset-pass:hover{
+    text-decoration: underline;
+}
+hr{
+    width:80%;
+    height:1px;
+    color:#DADDE1;
+    margin-left: 11.5%;
+    font-weight: 100;
+
+}
 .box-3{
     padding-bottom: 25%;
 }
