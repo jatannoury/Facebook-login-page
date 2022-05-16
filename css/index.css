@@ -7,6 +7,15 @@
    padding-top: 10%;
    height:200%;
 }
+.rowww{
+    display: flex;
+   justify-content: center;
+   text-align: center;
+   margin-top: 0%;
+   background-color: #F0F2F5;
+   height:200%;
+   padding-right:16%;
+}
 .Facebook{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color:#1877F2;
@@ -112,18 +121,111 @@ hr{
     width:80%;
     padding-left: 10%;
     font-size: 70%;
+    min-width:800px;
 }
 .sub-row{
     text-align: start;
     width:4.9%;
     margin-top: 2%;
+    padding-right: 1.2%;;
 }
 .Hr{
-    width:60%;
-    margin-right: 12%;
+    width:65%;
+    margin-left: 22.5%;
+   
 }
 button{
-    height:100%;
+    
     margin-top: 1.8%;
-    font-size: 180%;
+    font-size: 150%;
+    margin-left: 2%;
+    
+}
+
+.sub-row-1{
+    text-align: start;
+    width:4.9%;
+    
+}
+.row2 li{
+    display: inline;
+    justify-content: space-around;
+}
+.row2{
+    font-size: 70%;
+    padding-left: 21%;
+}
+.sub-row-1{
+    padding-left: 2%;
+    font-size: 110%;
+    color: #8A8D91;
+}
+.sub-row-1:hover{
+    text-decoration: underline;
+}
+@media (min-width:1001px){
+    .contain{
+        display: none;
+    }
+}
+@media (max-width:1001px){
+    .g{
+        display: initial;
+    }
+    .no{
+        display: none;
+    }
+    .container-1{
+        width:100%;
+        padding-left: 27%;
+        background-color: #F0F2F5;
+
+    }
+    .sub-Facebook{
+        width:60%;
+        min-width:450px;
+        max-width:470px;
+        padding-bottom: 5%;
+        justify-content: center;
+        padding-left: %;
+        font-size: 120%;
+    }
+    .Facebook{
+        padding-left: 5%;
+    }
+    .contain{
+        background-color: #F0F2F5 ;
+        padding-left: 35%;
+        
+    }
+    .rowww{
+        display: none;
+    }
+    .contain{
+        padding-left: 30%;
+    }
+    .box-3{
+        margin: 0 0 0 0;
+        margin-left: 27%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .contain{
+        padding-bottom: 5%;
+    }
+    .sub-box-3{
+        padding: 0 0 0 0;
+        text-align: start;
+        padding-top: 2%;
+    }
+    .row2{
+       padding-left: 0;
+    }
+    .Hr{
+        width: 95%;
+        margin-left:2%;
+    }
+    .box{
+        padding-left: 2%;
+    }
 }
